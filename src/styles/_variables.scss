@@ -1,0 +1,15 @@
+// ─── Brand colour palette ────────────────────────────────────────────────────
+$color-brand:      #8B6F47;
+$color-brand-dark: #6B543A;
+$color-text:       #3D3D3D;
+$color-bg-light:   #F5F1ED;
+$color-bg-muted:   #D4C5B9;
+
+// ─── CSS custom properties (used as Tailwind arbitrary values) ───────────────
+:root {
+  --color-brand:      #{$color-brand};
+  --color-brand-dark: #{$color-brand-dark};
+  --color-text:       #{$color-text};
+  --color-bg-light:   #{$color-bg-light};
+  --color-bg-muted:   #{$color-bg-muted};
+}
