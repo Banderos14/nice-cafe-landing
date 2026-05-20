@@ -4,7 +4,7 @@ import { useGLTF } from '@react-three/drei';
 import type { MotionValue } from 'motion/react';
 import * as THREE from 'three';
 
-const MODEL_URL = '/models/Coffee_bean.glb';
+const MODEL_URL = `${import.meta.env.BASE_URL}models/Coffee_bean.glb`;
 
 function lerp(a: number, b: number, t: number): number {
   return a + (b - a) * t;
