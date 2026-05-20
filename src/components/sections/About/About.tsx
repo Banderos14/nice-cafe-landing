@@ -6,7 +6,7 @@ export function About() {
   const { ref, inView } = useInView();
 
   return (
-    <section id="about" ref={ref} className="py-32 bg-[#F5F1ED]">
+    <section id="about" ref={ref} className="py-32 bg-white">
       <div className="max-w-7xl mx-auto px-8">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           {/* Image */}

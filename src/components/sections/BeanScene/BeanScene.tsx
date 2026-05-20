@@ -24,7 +24,7 @@ export function BeanScene() {
         gl={{ antialias: true, alpha: false }}
         style={{ width: '100%', height: '100%' }}
       >
-        {/* Exact site beige — seamless transition into About / Gallery / Location */}
+        {/* Warm background for the transparent bean stages */}
         <color attach="background" args={['#F5F1ED']} />
 
         {/* Generous lighting so any GLB material is visible */}

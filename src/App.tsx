@@ -21,7 +21,7 @@ export default function App() {
 
   return (
     <>
-      {/* Fixed 3D canvas — warm beige background + bean, always behind content */}
+      {/* Fixed 3D canvas: warm bean-stage background, always behind content */}
       <BeanScene />
 
       {/*
